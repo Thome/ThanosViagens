@@ -1,0 +1,48 @@
+﻿DESCRIÇÃO DA APLICAÇÃO
+
+scrip-thanos.sql cria o schema thanos no banco e realiza o povoamento.
+Note que scrip-thanos.sql contêm tanto a criação das tabelas, quanto o povoamento do banco.
+consulta_thanos.sql contêm as consultas realizadas em código. Essas consultas e como executá-las com a aplicação estão abaixo.
+
+Para iniciar a aplicação, execute ThanosViagens.jar.
+
+-- Consulta N1: Liste o Nome de todas as franquias que possuem piscina, restaurante e estacionamento. --
+
+Marque as checkboxes "estacionamento", "restaurante" e "piscina", após isso pressione "Ver todos os hotéis".
+
+-- Consulta N2: Liste o número de franquias de uma hospedaria. --
+
+No canto superior esquerdo, em "opções do gerente", selecione a primeira opção "ver número franquias por hotel".
+
+-- Consulta N3: Onde estão localizadas as franquias de uma hospedaria x? --
+
+No campo de texto na direita, digite o nome de uma hospedaria, ex: "BRUNL" ou "Hotéis TPAN", pressione "pesquisar" e todas as cidades com uma franquia dessa hospedaria serão exibidas.
+
+-- Consulta N4: Nome e user IDs de todos usuarios que fizeram reserva por essa aplicação. --
+
+No canto superior esquerdo, em "opções do gerente", selecione a terceira opção "histórico de reserva por usuário".
+
+-- Consulta N5: Hotéis com Media de avaliação de serviços maior que 6. --
+
+Marque a checkbox "Media Servico > 6", após isso pressione "Ver todos os hotéis".
+
+-- Consulta N6: Listar as franquias de uma cidade x onde x é a entrada do usuario --
+
+No campo de texto na esquerda, digite uma cidade, ex: "Aracaju" ou "Miami", e pressione "pesquisar" para exibir as franquias dessa cidade.
+
+-- Consulta N7: Média Geral das Hospedarias -- 
+(Exibe as hospedarias e suas médias gerais: a média das notas gerais, onde uma nota geral é a média das notas de serviço e acomodações dadas por um usuário)
+
+No canto superior esquerdo, em "opções do gerente", selecione a segunda opção "Melhores Franquias por Média Geral".
+
+-- Consulta N8: Nome dos usuários que fizeram reserva em um tipo de quarto com duas camas ou mais do mesmo tipo --
+
+No canto superior esquerdo, em "opções do gerente", selecione a quinta opção.
+
+-- Consulta N9: Nome dos usuários ques estão hospedado no dia atual em alguma hospedaria onde ? é a data atual --
+
+No canto superior esquerdo, em "opções do gerente", selecione a quarta opção "usuários hospedados hoje".
+
+-- Consulta N10: Liste os comentários de uma hospedaria, o autor do comentario e o nome da franquia --
+
+Automáticamente exibidos ao iniciar a aplicação.
